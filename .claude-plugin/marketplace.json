@@ -1,0 +1,28 @@
+{
+  "name": "tianquiztli",
+  "owner": {
+    "name": "Philip Borenstein",
+    "url": "https://pborenstein.dev"
+  },
+  "metadata": {
+    "description": "Philip Borenstein's Claude Code plugins for project setup and session tracking"
+  },
+  "plugins": [
+    {
+      "name": "plinth",
+      "source": {
+        "source": "github",
+        "repo": "pborenstein/plinth"
+      },
+      "description": "A plugin to set the table: project setup and development tools"
+    },
+    {
+      "name": "handoff",
+      "source": {
+        "source": "github",
+        "repo": "pborenstein/handoff"
+      },
+      "description": "Token-efficient project tracking with session pickup/wrapup and multi-project meta-repo support"
+    }
+  ]
+}
